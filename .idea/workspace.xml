@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f207a6-0702-46fe-92f8-5297ecd89c16" name="更改" comment="update README.md">
-      <change afterPath="$PROJECT_DIR$/spring-01-ioc1/src/main/java/com/kuang/dao/UserDaoOracleImpl.java" afterDir="false" />
+    <list default="true" id="31f207a6-0702-46fe-92f8-5297ecd89c16" name="更改" comment="add requirement2">
       <change beforePath="$PROJECT_DIR$/spring-01-ioc1/src/main/java/com/kuang/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-01-ioc1/src/main/java/com/kuang/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-01-ioc1/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-01-ioc1/src/test/java/MyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726663791257</updated>
-      <workItem from="1726663792359" duration="2818000" />
+      <workItem from="1726663792359" duration="3252000" />
     </task>
     <task id="LOCAL-00001" summary="add requirement1">
       <created>1726666200423</created>
@@ -109,15 +109,34 @@
       <option name="project" value="LOCAL" />
       <updated>1726666463746</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add requirement2">
+      <created>1726666701883</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726666701883</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add requirement1" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="add requirement2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add requirement2" />
   </component>
 </project>
