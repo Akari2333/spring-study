@@ -6,5 +6,6 @@
 
 * 文档地址: https://www.kuangstudy.com/zl/ssm#1381800943464509441
 
-## v1.0
+* Spring 中文文档: https://springdoc.cn/spring/core.html
 
+* Spring 英文文档: https://docs.spring.io/spring-framework/reference/overview.html
