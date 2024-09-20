@@ -1,3 +1,5 @@
+    // day3 IOC创建对象方式
+
 import com.kuang.pojo.User;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

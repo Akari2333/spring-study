@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f207a6-0702-46fe-92f8-5297ecd89c16" name="更改" comment="day 2 - HelloSpring">
-      <change afterPath="$PROJECT_DIR$/spring-03-ioc2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="31f207a6-0702-46fe-92f8-5297ecd89c16" name="更改" comment="day 3 - IOC创建对象方式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-03-ioc2/src/main/java/com/kuang/pojo/UserT.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-ioc2/src/main/java/com/kuang/pojo/UserT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-03-ioc2/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-ioc2/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-03-ioc2/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-ioc2/src/test/java/MyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726757497910</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day 3 - IOC创建对象方式">
+      <created>1726838664149</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726838664149</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +176,8 @@
     <MESSAGE value="add requirement2" />
     <MESSAGE value="add IOC" />
     <MESSAGE value="day 2 - HelloSpring" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 2 - HelloSpring" />
+    <MESSAGE value="day 3 - IOC创建对象方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3 - IOC创建对象方式" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
