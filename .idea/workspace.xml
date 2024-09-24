@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f207a6-0702-46fe-92f8-5297ecd89c16" name="更改" comment="day 3 - Spring配置">
-      <change afterPath="$PROJECT_DIR$/spring-04-id/pom.xml" afterDir="false" />
+    <list default="true" id="31f207a6-0702-46fe-92f8-5297ecd89c16" name="更改" comment="day4 - DI依赖注入环境">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-04-id/src/main/java/com/kuang/pojo/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-id/src/main/java/com/kuang/pojo/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-04-id/src/main/java/com/kuang/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-id/src/main/java/com/kuang/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-04-id/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-id/src/main/resources/beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-04-id/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-id/src/test/java/MyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +26,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="acw/master" />
+                <branch-info repo="$PROJECT_DIR$" source="github/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -67,12 +80,19 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "spring.configuration.checksum": "32271d647ce41d327533e574c24a915e",
+    "settings.editor.selected.configurable": "preferences.sourceCode.XML",
+    "spring.configuration.checksum": "5fca28d31e0c9222b8cb99d13704180a",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.MyTest (1)">
+    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-04-id" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="spring-01-ioc1" />
@@ -82,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.MyTest (1)" />
         <item itemvalue="应用程序.MyTest" />
       </list>
     </recent_temporary>
@@ -99,7 +120,8 @@
       <workItem from="1726754725420" duration="72000" />
       <workItem from="1726754804474" duration="2713000" />
       <workItem from="1726832024406" duration="1931000" />
-      <workItem from="1726919934363" duration="2149000" />
+      <workItem from="1726919934363" duration="3221000" />
+      <workItem from="1727180215581" duration="3779000" />
     </task>
     <task id="LOCAL-00001" summary="add requirement1">
       <created>1726666200423</created>
@@ -171,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726842054371</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="day4 - DI依赖注入环境">
+      <created>1726927265576</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726927265576</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +225,8 @@
     <MESSAGE value="day 2 - HelloSpring" />
     <MESSAGE value="day 3 - IOC创建对象方式" />
     <MESSAGE value="day 3 - Spring配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 3 - Spring配置" />
+    <MESSAGE value="day4 - DI依赖注入环境" />
+    <option name="LAST_COMMIT_MESSAGE" value="day4 - DI依赖注入环境" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

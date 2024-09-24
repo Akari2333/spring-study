@@ -82,7 +82,7 @@ public class Student {
     public String toString() {
         return "com.kuang.pojo.Student{" +
                 "name='" + name + '\'' +
-                ", address=" + address +
+                ", address=" + address.toString() +     // day5
                 ", books=" + Arrays.toString(books) +
                 ", hobbies=" + hobbies +
                 ", card=" + card +

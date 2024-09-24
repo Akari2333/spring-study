@@ -4,8 +4,69 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="student" class="com.kuang.pojo.Student">
-        <property name="name" value="小明"/>
+    <bean id="address" class="com.kuang.pojo.Address">
+        <property name="address" value="西安"/>
     </bean>
+
+    <bean id="student" class="com.kuang.pojo.Student">
+        <!--第一种, 普通值注入, value  常用-->
+        <property name="name" value="小明"/>
+
+        <!--第二种, Bean注入, ref   常用-->
+        <property name="address" ref="address"/>
+
+        <!--数组注入-->
+        <property name="books">
+             <array>
+                 <value>红楼梦</value>
+                 <value>水浒传</value>
+                 <value>三国演义</value>
+                 <value>西游记</value>
+             </array>
+        </property>
+
+        <!--List-->
+        <property name="hobbies">
+            <list>
+                <value>game</value>
+                <value>anime</value>
+                <value>sports</value>
+            </list>
+        </property>
+
+        <!--Map-->
+        <property name="card">
+            <map>
+                <entry key="身份证" value="111111222222333333"/>
+                <entry key="银行卡" value="123123123123123"/>
+            </map>
+        </property>
+        
+        <!--  set  -->
+        <property name="games">
+            <set>
+                <value>LOL</value>
+                <value>COC</value>
+                <value>BOB</value>
+            </set>
+        </property>
+
+        <!--  null  -->
+        <property name="wife">
+            <null/>
+        </property>
+
+        <!--  properties  -->
+        <property name="info">
+            <props>
+                <prop key="driver">20190525</prop>
+                <prop key="url">男</prop>
+                <prop key="username">小明</prop>
+                <prop key="password">123456</prop>
+            </props>
+        </property>
+    </bean>
+
+
 
 </beans>
